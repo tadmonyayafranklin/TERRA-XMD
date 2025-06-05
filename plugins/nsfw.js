@@ -9,13 +9,13 @@ ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
 CONTACT ME HERE +237656520674
 YT: KermHackTools
 Github: Kgtech-cmr
-*/
+
 
 const { cmd } = require('../command'); // Assurez-vous que cmd est bien défini dans votre projet
 const axios = require('axios');
 
 cmd({
-    pattern: "nsfw", // Nom de la commande
+    pattern: "terranude", // Nom de la commande
     desc: "Display a list of NSFW options",
     category: "fun",
     use: '.nsfw',
@@ -26,7 +26,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
     try {
         // Liste des options NSFW
         const nsfwList = `
-*[{• KERM MD V1 NSFW🤤🔞•}]*
+*[{•TERRA XMD NSFW🤤🔞•}]*
 
 1️⃣ *EJACULATION*
 2️⃣ *PENIS*
@@ -389,3 +389,4 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         await reply('❌ An error occurred while processing your request.');
     }
 });
+*/
