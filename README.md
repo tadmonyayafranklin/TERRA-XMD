@@ -1,5 +1,5 @@
 
-<h1 align="center">🚀 TERRA XMD - ADVANCED WHATSAPP BOT</h1>
+<h1 align="center">🚀TERRA-XMD</h1>
 
 <p align="center">
   <img src="https://files.catbox.moe/ir370g.jpg" width="300"/><br>
@@ -12,6 +12,54 @@
   <a href="https://whatsapp.com/channel/0029VbANsvkIiRp31CEW3C2C"><img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat-square&logo=whatsapp"></a>
   <a href="https://github.com/Crazynotdev"><img src="https://img.shields.io/badge/Dev-Crazynotdev-blueviolet?style=flat-square"></a>
 </p>
+
+**GITHUB DEPLOYMENT** ⭐️
+
+```
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '0 */6 * * *'  
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Install FFmpeg
+      run: sudo apt-get install -y ffmpeg
+
+    - name: Start application with timeout
+      run: |
+        timeout 21590s npm start  # Limite l'exécution à 5h 59m 50s
+
+    - name: Save state (Optional)
+      run: |
+        ./save_state.sh
+```
 
 ---
 
