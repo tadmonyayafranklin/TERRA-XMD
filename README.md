@@ -13,6 +13,40 @@
   <a href="https://github.com/Crazynotdev"><img src="https://img.shields.io/badge/Dev-Crazynotdev-blueviolet?style=flat-square"></a>
 </p>
 
+
+---
+
+🧠 Features
+
+- 🔁 Auto Restart & Baileys Multi-Device Support  
+- 🔌 Dynamic Plugin Loader  
+- 🔐 Private/Group Commands  
+- 🖥️ Console Interface & Live Logs  
+- ☁️ Deployable on Multiple Platforms  
+
+---
+
+🚀 One-Click Deploy Options
+
+⚡ Katabump
+[![Deploy with Katabump](https://img.shields.io/badge/Deploy%20Now-KATABUMP-2ecc71?style=for-the-badge)](https://katabump.com)
+
+🌐 Render
+
+[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render)](https://render.com)
+
+☁️ Koyeb
+
+[![Koyeb](https://img.shields.io/badge/Deploy-Koyeb-00C2FF?style=for-the-badge&logo=koyeb)](https://www.koyeb.com)
+
+🛰️ Talkdrove
+
+[![Talkdrove](https://img.shields.io/badge/Deploy-Talkdrove-orange?style=for-the-badge)](#)
+
+🔄 GitHub Actions
+Deploy automatically using `.yml` workflow inside GitHub Actions.
+
+
 **GITHUB DEPLOYMENT** ⭐️
 
 ```
@@ -60,38 +94,6 @@ jobs:
       run: |
         ./save_state.sh
 ```
-
----
-
-🧠 Features
-
-- 🔁 Auto Restart & Baileys Multi-Device Support  
-- 🔌 Dynamic Plugin Loader  
-- 🔐 Private/Group Commands  
-- 🖥️ Console Interface & Live Logs  
-- ☁️ Deployable on Multiple Platforms  
-
----
-
-🚀 One-Click Deploy Options
-
-⚡ Katabump
-[![Deploy with Katabump](https://img.shields.io/badge/Deploy%20Now-KATABUMP-2ecc71?style=for-the-badge)](https://katabump.com)
-
-🌐 Render
-
-[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render)](https://render.com)
-
-☁️ Koyeb
-
-[![Koyeb](https://img.shields.io/badge/Deploy-Koyeb-00C2FF?style=for-the-badge&logo=koyeb)](https://www.koyeb.com)
-
-🛰️ Talkdrove
-
-[![Talkdrove](https://img.shields.io/badge/Deploy-Talkdrove-orange?style=for-the-badge)](#)
-
-🔄 GitHub Actions
-Deploy automatically using `.yml` workflow inside GitHub Actions.
 
 ---
 
