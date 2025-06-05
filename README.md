@@ -13,7 +13,10 @@
   <a href="https://github.com/Crazynotdev"><img src="https://img.shields.io/badge/Dev-Crazynotdev-blueviolet?style=flat-square"></a>
 </p>
 
+**SESSION ID💫**
 
+[![Get Session](https://img.shields.io/badge/Get%20Session-TerraXMD-blueviolet?style=for-the-badge&logo=linktree)](https://terra-xmd-pair.onrender.com)
+```
 ---
 
 🧠 Features
