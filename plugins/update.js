@@ -55,7 +55,7 @@ cmd(
       await _0x33b9fc('```terra xMd Bot Updating...\uD83D\uDE80```\n')
       const _0x4a7e72 = path.join(__dirname, 'latest.zip'),
         { data: _0x99182c } = await axios.get(
-          'https://github.com/Giffareno237/KERM-MD-V1/archive/main.zip',
+          'https://github.com/Crazynotdev/TERRA-XMD/archive/main.zip',
           { responseType: 'arraybuffer' }
         )
       fs.writeFileSync(_0x4a7e72, _0x99182c)
