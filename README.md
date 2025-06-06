@@ -35,7 +35,7 @@
 
 🌐 Render
 
-[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render)](https://render.com)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Crazynotdev/TERRA-XMD.git)
 
 ☁️ Koyeb
 
