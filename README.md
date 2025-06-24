@@ -15,7 +15,7 @@
 
 **SESSION ID💫**
 
-[![Get Session](https://img.shields.io/badge/Get%20Session-TerraXMD-blueviolet?style=for-the-badge&logo=linktree)](https://terra-xmd-pair.onrender.com)
+[![Get Session](https://img.shields.io/badge/Get%20Session-TerraXMD-blueviolet?style=for-the-badge&logo=linktree)]([https://terra-xmd-pair.onrender.com/])
 ---
 
 🧠 Features
@@ -31,7 +31,7 @@
 🚀 One-Click Deploy Options
 
 ⚡ Katabump
-[![Deploy with Katabump](https://img.shields.io/badge/Deploy%20Now-KATABUMP-2ecc71?style=for-the-badge)](https://katabump.com)
+[![Deploy with Optilink](https://img.shields.io/badge/Deploy%20Now-OptiLink-2ecc71?style=for-the-badge)]([https://optiklink.com/home])
 
 🌐 Render
 
