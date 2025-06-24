@@ -56,7 +56,7 @@ const port = process.env.PORT || 9090;
 
 
 async function connectToWA() {
-console.log("CONNECTING TRERRA XMD🧬...");
+console.log("CONNECTING TERRA XMD🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/connect/')
 var { version } = await fetchLatestBaileysVersion()
 
