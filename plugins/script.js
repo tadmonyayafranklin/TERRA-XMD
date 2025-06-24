@@ -37,7 +37,7 @@ async (conn, mek, m, { from, reply }) => {
 │  🔥 Simple, Cold & Feature-Rich Bot
 │  💖 Thank you for using *TERRA MD*
 │  ⭐ Don’t forget to *star* & *fork* us!
-│  🔗 github.com/crazynotdev/TERRA-XMD
+│  🔗 github.com/Crazynotdev/TERRA-XMD
 ╰────────────────────────╯
 
 ${readMore}
