@@ -1,16 +1,4 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
-
+// 𝚻𝚵𝚪𝚪𝚫 𝚾𝚳𝐃
 const config = require('../config')
 const {cmd , commands} = require('../command')
 const os = require("os")
@@ -37,7 +25,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┇📝 Auto Status : ♻ 𝙾𝙽/𝙾𝙵𝙵
 ┇⌨ Auto Typing : ♻ 𝙾𝙽/𝙾𝙵𝙵
 ┇🛠 Auto Read Command : ♻ 𝙾𝙽/𝙾𝙵𝙵
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
    🔗  CUSTOMIZE YOUR SETTINGS ⤵️
    
@@ -87,7 +75,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┗━━━━━━━━━━━━━━━━━━━━━`;
 
         const vv = await conn.sendMessage(from, { 
-            image: { url: "https://files.catbox.moe/ir370g.jpg" }, // Ici, l'utilisateur peut changer l'URL directement
+            image: { url: "https://files.catbox.moe/zjyd13.jpeg" }, // Ici, l'utilisateur peut changer l'URL directement
             caption: desc
         }, { quoted: mek });
 

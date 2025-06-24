@@ -2,7 +2,7 @@ const { cmd } = require('../command'); // Assuming you have a command handler
 const axios = require('axios'); // For making HTTP requests to GitHub API
 
 // GitHub repository details
-const REPO_OWNER = 'crazynotdev';
+const REPO_OWNER = 'Crazynotdev';
 const REPO_NAME = 'TERRA-XMD';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 

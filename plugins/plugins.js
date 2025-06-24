@@ -3,7 +3,7 @@ const axios = require('axios'); // For making HTTP requests to GitHub API
 const fs = require('fs'); // For saving downloaded files
 
 // GitHub repository details
-const REPO_OWNER = 'crazynotdev';
+const REPO_OWNER = 'Crazynotdev';
 const REPO_NAME = 'TERRA-XMD';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
@@ -72,7 +72,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
         // If the user is replying to a message, check if it's a number
         if (m.quoted && m.quoted.key.fromMe) {
             const quotedText = m.quoted.text;
-            if (/📂 \*KERM MD V1 Plugins:\*/i.test(quotedText)) {
+            if (/📂 \*TERRA-XMD Plugins:\*/i.test(quotedText)) {
                 // Extract the number from the reply
                 const fileNumber = parseInt(pluginName);
                 if (!isNaN(fileNumber) && fileNumber > 0 && fileNumber <= pluginListCache.length) {
@@ -99,15 +99,15 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
 
         // Status message with image and caption
         const statusMessage = {
-            image: { url: `https://i.ibb.co/5x444Mnp/mrfrankofc.jpg` }, // Replace with your image URL
+            image: { url: `https://files.catbox.moe/zjyd13.jpeg ` }, // Replace with your image URL
             caption: `*Successfully downloaded ${pluginName} ✅*`,
             contextInfo: {
                 mentionedJid: [senderNumber],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐊𝐄𝐑𝐌 𝐌𝐃',
+                    newsletterJid: '120363400129137847@newsletter',
+                    newsletterName: 'TERRA XMD',
                     serverMessageId: 143
                 }
             }

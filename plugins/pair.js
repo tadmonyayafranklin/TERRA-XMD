@@ -10,7 +10,7 @@
    🌐 GitHub: https://github.com/DavidTechInc
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
-/*
+
 //const fetch = require("node-fetch");
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson} = require('../lib/functions')
 const { cmd } = require("../command");
@@ -33,12 +33,12 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example : .Pair 237656520674*");
+            return await reply("*Example : .Pair 241xxx*");
         }
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://pair-session-kermv4-pair.onrender.com/code?number=${q}`);
+        const response = await fetch(`https://terra-xmd-pair.onrender.com/code?number=${q}`);
         const pair = await response.json();
 
         // Check for errors in response
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *KERM-MD-V1 PAIR COMPLETED*";
+        const doneMessage = "> *TERRA XMD PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n> *PAIRING CODE IS: ${pairingCode}*`);
@@ -64,4 +64,3 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
     }
 });
           
-*/

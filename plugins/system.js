@@ -35,7 +35,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 │ 🚀 *Uptime:*       ➔ ${uptime}
 │ 💾 *RAM Usage:*    ➔ ${usedRam}MB / ${totalRam}MB
 │ 🌐 *Hostname:*     ➔ ${hostname}
-│ 👑 *Owner:*        ➔ *KG TECH*
+│ 👑 *Owner:*        ➔ *CRAZY*
 └─────────────────────────────┘
         `.trim();
 

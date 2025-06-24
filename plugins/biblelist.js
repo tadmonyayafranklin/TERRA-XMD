@@ -95,12 +95,11 @@ cmd({
 26. Jude
 27. Revelation
 
-
-❤️BY KERM MD V1❤️
+> TERRA XMD🍀
 `;
 
         // Remplacer ce lien par l'URL de l'image que tu m'enverras
-        const imageUrl = "https://files.catbox.moe/kx30st.jpeg"; // Remplace "TON_LIEN_IMAGE_ICI" par ton lien d'image
+        const imageUrl = "https://files.catbox.moe/zjyd13.jpeg"; // Remplace "TON_LIEN_IMAGE_ICI" par ton lien d'image
 
         // Vérifier si le message de la commande est correctement reçu
         if (!m.chat) {
@@ -110,7 +109,7 @@ cmd({
         // Envoi de la réponse avec l'image et la liste des livres de la Bible
         await conn.sendMessage(m.chat, {
             image: { url: imageUrl },
-            caption: `📖 *Bible List By Kerm Md*:\n\n` +
+            caption: `📖 *Holy Bible❤️*:\n\n` +
                      `Here is the complete list of books in the Bible:\n\n` +
                      bibleList.trim() // Ajout du texte des livres de la Bible
         }, { quoted: mek });

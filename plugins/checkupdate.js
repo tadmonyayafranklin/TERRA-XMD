@@ -9,7 +9,7 @@ cmd(
   {
     pattern: 'checkupdate',
     alias: ['checkupgrade', 'checksync'],
-    react: '\uD83D\uDD0D',
+    react: '🏁',
     desc: 'Check for updates without applying them.',
     category: 'misc',
     filename: __filename,
@@ -25,7 +25,7 @@ cmd(
     }
     try {
       const { data: _0x5b6f17 } = await axios.get(
-          'https://api.github.com/repos/crazynotdev/TERRA-XMD/commits/main'
+          'https://api.github.com/repos/Crazynotdev/TERRA-XMD/commits/main'
         ),
         _0x2bd28a = _0x5b6f17.sha,
         _0x352f8e = _0x5b6f17.commit.author.name,

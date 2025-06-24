@@ -48,7 +48,7 @@ cmd({
     } = data;
 
     // Format the country information message
-    const countryMessage = `\*\`ု᪳𝐊𝐄𝐑𝐌 𝐌𝐃 𝐂𝐎𝐔𝐍𝐓𝐑𝐘 𝐈𝐍𝐅𝐎ှ᪳\`\*\n\n
+    const countryMessage = `\*\`💫TERRA XMD COUNTRY INFO💫\`\*\n\n
 🌍 *ᴄᴏᴜɴᴛʀʏ*: ${name}
 🏛️ *ᴄᴀᴘɪᴛᴀʟ*: ${capital}
 ☎️ *ɴᴜᴍʙᴇʀ ᴄᴏᴅᴇ*: ${phoneCode}

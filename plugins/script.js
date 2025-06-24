@@ -1,17 +1,4 @@
 /*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
-
-/*
 const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
@@ -120,7 +107,7 @@ ${readMore}
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/ir370g.jpg` },
+            image: { url: `https://files.catbox.moe/zjyd13.jpeg ` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -133,25 +120,9 @@ ${readMore}
                 }
             }
         }, { quoted: mek });
-
-        // Send the audio file with context info
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400129137847@newsletter',
-                    newsletterName: 'CRAZY DEV',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-
-    } catch (error) {
+        
+        
+        } catch (error) {
         console.error("Error in repo command:", error);
         reply("Sorry, something went wrong while fetching the repository information. Please try again later.");
     }

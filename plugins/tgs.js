@@ -41,7 +41,7 @@ cmd({
 
     let type = stickers.data.result.is_animated ? 'animated sticker' : 'not animated sticker';
 
-    let message = `*🧩KERM TELEGRAM STICKERS🧩*\n\n` +
+    let message = `*🧩TERRA TELEGRAM STICKER🧩*\n\n` +
                   `*Producer:* ${stickers.data.result.name}\n` +
                   `*Type:* ${type}\n` +
                   `*Length:* ${stickers.data.result.stickers.length}\n\n` +
@@ -51,15 +51,15 @@ cmd({
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/B2nBXKvx/lordkerm.jpg` },
+                image: { url: `https://files.catbox.moe/2ptzrr.jpg ` },
                 caption: message,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363321386877609@newsletter',
-                        newsletterName: '🐲𝐊𝐄𝐑𝐌 𝐓𝐆𝐒🐲',
+                        newsletterJid: '120363400129137847@newsletter',
+                        newsletterName: 'TERRA TGS⭐️',
                         serverMessageId: 143
                     }
                 }
@@ -80,8 +80,8 @@ await conn.sendMessage(
 
       // Create a WhatsApp sticker
       const sticker = new Sticker(buffer.data, {
-        pack: '🐲𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟏🐲',
-        author: '𝐋𝐎𝐑𝐃 𝐊𝐄𝐑𝐌',
+        pack: 'TERRA-XMD',
+        author: '🐝',
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: '12345',
