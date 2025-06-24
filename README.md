@@ -30,7 +30,7 @@
 
 🚀 One-Click Deploy Options
 
-⚡ Katabump
+⚡ OptiLink
 [![Deploy with Optilink](https://img.shields.io/badge/Deploy%20Now-OptiLink-2ecc71?style=for-the-badge)]([https://optiklink.com/home])
 
 🌐 Render
