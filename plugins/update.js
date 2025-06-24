@@ -37,7 +37,7 @@ cmd(
     try {
       await _0x33b9fc('```\uD83D\uDD0D Checking for TERRA-XMD updates...💫```\n')
       const { data: _0x1258fc } = await axios.get(
-          'https://api.github.com/repos/Crazynotdev\TERRA-XMD/commits/main'
+          'https://api.github.com/repos/Crazynotdev/TERRA-XMD/commits/main'
         ),
         _0x190d17 = _0x1258fc.sha
       let _0x429064 = 'unknown'
