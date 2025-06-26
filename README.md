@@ -2,7 +2,7 @@
 <h1 align="center">🚀TERRA-XMD</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/ir370g.jpg" width="300"/><br>
+  <img src="https://files.catbox.moe/jkzbct.jpeg" width="300"/><br>
   <b>Fast, Powerful, and Stylish WhatsApp Bot built for fun and performance.</b>
 </p>
 
