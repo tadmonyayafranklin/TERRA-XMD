@@ -6,8 +6,8 @@
    If you use or copy any part of this code,
    you MUST give proper credit!
 
-   📞 Contact: +241 05730123
-   🌐 GitHub: https://github.com/DavidTechInc
+   📞 Contact: +237 652450338
+   🌐 GitHub: https://github.com/tadmonyayafranklin
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
 
